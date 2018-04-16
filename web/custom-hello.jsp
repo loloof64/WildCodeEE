@@ -9,8 +9,9 @@
 <html>
 <head>
     <title>Simple hello !</title>
+    <style><%@include file="/WEB-INF/css/custom-hello.css"%></style>
 </head>
 <body>
-    <h2><%= request.getAttribute("greeting")%></h2>
+    <h2 class="greeting"><%= request.getAttribute("greeting")%></h2>
 </body>
 </html>

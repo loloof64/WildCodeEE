@@ -1,0 +1,9 @@
+h2.greeting {
+    border: 2px dashed red;
+    background-color: mistyrose;
+    color: crimson;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

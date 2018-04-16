@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Simple Hello !</title>
+    <style><%@include file="/WEB-INF/css/hello-form.css"%></style>
 </head>
 <body>
     <form method="POST" action="/simple-hello">
