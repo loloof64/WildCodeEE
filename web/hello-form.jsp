@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Simple Hello !</title>
-    <link href="WEB-INF/css/hello-form.css" type="text/css" rel="stylesheet">
+    <link href="/css/hello-form.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <form method="POST" action="/simple-hello">

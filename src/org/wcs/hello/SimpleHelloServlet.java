@@ -16,7 +16,7 @@ public class SimpleHelloServlet extends HttpServlet {
         String lastName = request.getParameter("lastname");
         String time = request.getParameter("time");
 
-        int hour = Integer.parseInt(time.substring(0, 2));
+        int hour = Integer.parseInt(time.substring(0, 2)) + 1;
         String greeting = "";
         if (hour > 20){
             greeting = "Good night";
