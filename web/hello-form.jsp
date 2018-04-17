@@ -5,6 +5,7 @@
     <style><%@include file="/WEB-INF/css/hello-form.css"%></style>
 </head>
 <body>
+    <h1>Un simple bonjour</h1>
     <form method="POST" action="/simple-hello">
             <label for="firstname">
                 Prénom :
