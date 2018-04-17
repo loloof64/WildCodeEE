@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>Simple hello !</title>
-    <style><%@include file="/WEB-INF/css/custom-hello.css"%></style>
+    <link href="WEB-INF/css/custom-hello.css">
 </head>
 <body>
     <h2 class="greeting"><%= request.getAttribute("greeting")%></h2>

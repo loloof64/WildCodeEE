@@ -2,11 +2,11 @@
 <html>
 <head>
     <title>Simple Hello !</title>
-    <style><%@include file="/WEB-INF/css/hello-form.css"%></style>
+    <link href="WEB-INF/css/hello-form.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <h1>Un simple bonjour</h1>
     <form method="POST" action="/simple-hello">
+        <h2>Un simple bonjour</h2>
             <label for="firstname">
                 Prénom :
             </label>
